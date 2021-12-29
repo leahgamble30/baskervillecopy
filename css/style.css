@@ -1,0 +1,268 @@
+/*------ CSS Reset -   -----*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+/*------- Main styling, this section lays down ther foundations for the main structure of the content ----*/
+
+body {
+    background: #E2D4B0;
+    color: #423F4D;
+    font-family: baskerville-urw, serif;
+    }
+
+section, header, footer { 
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    padding: 0em 0em 0em 0em;}
+
+section{
+    margin-bottom: 10rem;
+}
+
+
+.dark {background: #3c3c3c;}
+.light {background:#721A22;}
+
+.light p{
+    color:#E2D4B0;
+}
+
+header{
+    background-color: #721A22;
+}
+
+header p {
+    color:#721A22;
+
+}
+
+h2{
+    color:#423F4D;
+    text-align:center;
+}
+
+p{
+   color: #423F4D;
+}
+
+.light h2{
+    color: #E2D4B0;
+}
+
+
+
+.gridimage {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    margin: 50px;
+
+}
+
+.box {
+    inline-size: 150px; 
+    overflow: hidden;
+  }
+    
+/*---- TYPOGRAPHY ----*/
+
+p {font-family: mr-eaves-sans, sans-serif;} 
+
+header h1h2{
+    color: #423F4D;
+    padding: 5rem;
+    font-weight: normal;
+    margin: 5rem;
+}
+
+
+
+p{
+    color: #423F4D;
+    padding: 5rem;
+    font-weight: normal;
+    margin: 5rem;
+
+}
+
+header h2 {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 2.827rem;
+    color:  #423F4D;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-indent: 1.5rem;}
+
+header p {
+    font-size: 1.3em;
+    padding-bottom: 4rem;
+    color:  #423F4D;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    color: #423F4D;
+}
+
+h1{
+    font-family: viktor-script, sans-serif;
+ font-weight: 400;
+font-style: normal;
+text-align: center;
+color: #423F4D;
+}
+
+
+
+blockquote {
+    padding: 0em;
+    line-height: 1.4;
+    color: #E2D4B0}
+
+h1 {
+    font-size: 5.653rem;
+    margin-top: 4rem;
+    padding-bottom: 0;
+padding: 1em;
+}
+
+h2 {
+    font-size: 1.999rem;
+    margin: 3rem 0 1rem 0;}
+
+blockquote p {
+    font-style: italic;
+    font-size: 1.999rem;
+    color: #E2D4B0;
+    hanging-punctuation: none;
+    text-indent: -0.75rem;}
+
+blockquote cite {
+    font-style: normal;
+    font-size: 1rem;
+    color: #E2D4B0}
+
+
+
+/*--- STYLING LINKS ---*/
+a {
+    color: #721A22;
+    text-decoration: none;}
+
+a:visited {
+    color: #7e7e7e;}
+
+a:hover {
+    color: #E2D4B0;
+    border-bottom: 1px dotted;}
+
+/*--- NAVIGATION ---*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color:#721A22;
+    padding: 3em 0;
+    font-size: 0.75em;}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    background: none;}
+
+nav a {color: #E2D4B0;}
+
+nav a:visited {
+    color:#E2D4B0;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: #ffd66d;
+    transition: all 0.3s ease-in-out;}
+
+/*----- IMAGES -----*/
+img {
+    display: block;
+    margin: 5em 0;
+    padding: 0em;
+    max-width: 100%;
+}
+
+#dropshadow {
+        box-shadow: 0 8px 6px -6px black;
+     
+}
+
+
+
+/*--- FOOTER ---*/
+footer{
+    text-align: center;
+    font-size: 1rem;
+    margin: auto;
+}
+
+footer p {
+    color: #E2D4B0;
+}
+
+.connections{
+    position: relative;
+    margin: 0 auto;
+  }
+  .connections ul{
+    margin: 0;
+    padding: 0;
+  }
+  .connections li{
+      align-items: center;
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;  
+  }
+  .connections a:link{
+    border-bottom: none;
+  }
+  .connections img,
+  .connections svg{
+    border: none;
+  }
+  .connections a:hover img,
+  .connections a:hover svg{
+    border-bottom: none;}
+  
+  .connections svg {
+        margin: 2em auto;}
+  
+  .connections a:hover svg path {
+        fill: #423F4D;
+        transition: all 0.2s ease-in-out;}
+  
+  footer .connections a:hover svg path {
+          fill:  #423F4D;
+          transition: all 0.2s ease-in-out;}
+ 
+
+   
+    
+
+
+
+          
